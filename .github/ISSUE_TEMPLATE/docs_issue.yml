@@ -1,0 +1,26 @@
+name: Docs issue
+description: Report a problem with docs.tabmail.ai content
+title: "[Docs]: "
+labels:
+  - documentation
+assignees: []
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: What needs fixing?
+      placeholder: |
+        Example:
+        The hotkey is wrong on the Getting Started page.
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Docs page URL or path
+      placeholder: "https://docs.tabmail.ai/getting-started/"
+    validations:
+      required: false
+
+

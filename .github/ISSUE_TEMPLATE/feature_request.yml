@@ -1,0 +1,50 @@
+name: Feature request
+description: Suggest a feature or improvement for TabMail (Thunderbird)
+title: "[Feature]: "
+labels:
+  - enhancement
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! The best requests include the workflow problem and what “success” looks like.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: |
+        Example:
+        I triage 200+ emails/day and I want faster ways to archive newsletters without opening them.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: What would you like TabMail to do?
+      placeholder: |
+        Example:
+        Add a “newsletter auto-archive” rule that I can teach once and apply going forward.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you’ve tried (optional)
+      placeholder: |
+        Filters, tags, manual triage, other tools…
+    validations:
+      required: false
+
+  - type: input
+    id: tb_version
+    attributes:
+      label: Thunderbird version (optional)
+      placeholder: "145.0"
+    validations:
+      required: false
+
+

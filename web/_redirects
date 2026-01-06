@@ -1,0 +1,8 @@
+/getting-started /getting-started/ 301
+/faq /faq/ 301
+/troubleshooting /troubleshooting/ 301
+
+# Ensure shared tabmail.ai scripts that reference site-relative /assets/* work on docs.*
+/assets/* https://tabmail.ai/assets/:splat 302
+
+

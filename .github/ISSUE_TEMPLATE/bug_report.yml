@@ -1,0 +1,82 @@
+name: Bug report
+description: Report something broken in TabMail for Thunderbird (v145)
+title: "[Bug]: "
+labels:
+  - bug
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! This repo tracks **TabMail user-facing issues** for the Thunderbird add-on (v145).
+
+  - type: input
+    id: tb_version
+    attributes:
+      label: Thunderbird version
+      description: Example: 145.0
+      placeholder: "145.0"
+    validations:
+      required: true
+
+  - type: input
+    id: tabmail_version
+    attributes:
+      label: TabMail add-on version
+      description: Find this in Thunderbird Add-ons Manager → TabMail.
+      placeholder: "e.g. 0.2.7"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Other (please specify below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Tell us what you expected and what actually happened.
+      placeholder: |
+        Expected:
+        Actual:
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps that consistently reproduce the issue.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / screen recording (optional)
+      description: Drag and drop files here if it helps.
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context (optional)
+      description: Any error text shown in the TabMail UI, or anything else that might help.
+    validations:
+      required: false
+
+

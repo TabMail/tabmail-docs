@@ -1,0 +1,38 @@
+name: Support question
+description: Ask for help using TabMail (Thunderbird v145)
+title: "[Support]: "
+labels:
+  - question
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for “how do I…?” questions or help requests. If something is clearly broken, please use **Bug report** instead.
+
+  - type: input
+    id: tb_version
+    attributes:
+      label: Thunderbird version
+      placeholder: "145.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+      placeholder: |
+        What are you trying to do? What did you try? What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / screen recording (optional)
+      description: Drag and drop files here if it helps.
+    validations:
+      required: false
+
+
