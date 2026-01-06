@@ -2,7 +2,7 @@
 
 ## “Sign in” doesn’t work / I get redirected
 
-- Confirm you’re on **Thunderbird v145**.
+- Confirm you’re on **Thunderbird v145+**.
 - Try signing in again from the TabMail UI.
 
 ## Autocomplete / inline commands don’t work in compose
@@ -22,7 +22,7 @@ Open a support ticket and include:
 
 - What you asked
 - What happened (exact error text)
-- Your Thunderbird version (v145)
+- Your Thunderbird version (v145+)
 
 - [Open an issue](https://github.com/TabMail/tabmail-docs/issues/new/choose)
 

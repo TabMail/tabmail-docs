@@ -3,7 +3,7 @@
 ## Goals
 
 - Be **user-facing**: focus on “what to do”, not internal architecture.
-- Be **Thunderbird v145 accurate**.
+- Be **Thunderbird v145+ accurate**.
 - Prefer **short, concrete steps** and **copy/paste-ready** wording.
 - If something is unclear, document the **expected behavior** and add a “Known issue / TODO” line instead of guessing.
 

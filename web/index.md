@@ -1,6 +1,6 @@
 # Welcome
 
-This site explains how to use **TabMail** inside **Thunderbird (v145)**.
+This site explains how to use **TabMail** inside **Thunderbird (v145+)**.
 
 ## Start here
 

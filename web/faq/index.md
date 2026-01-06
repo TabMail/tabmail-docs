@@ -6,7 +6,7 @@ TabMail is designed to keep mailbox data in Thunderbird. The backend primarily h
 
 ## What Thunderbird versions are supported?
 
-TabMail targets **Thunderbird v145**.
+TabMail targets **Thunderbird v145+**.
 
 ## Do I need an account?
 

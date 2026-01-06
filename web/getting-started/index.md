@@ -1,6 +1,6 @@
 # Install + first run
 
-## 1) Install TabMail in Thunderbird (v145)
+## 1) Install TabMail in Thunderbird (v145+)
 
 1. Download the TabMail add-on.
 2. In Thunderbird, open **Add-ons and Themes**.
