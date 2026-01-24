@@ -1,4 +1,4 @@
-# TabMail Support
+so# TabMail Support
 
 This repository is the **public support tracker** for **TabMail** (Thunderbird add-on).
 
@@ -21,7 +21,3 @@ Issue forms are enabled to keep reports structured.
 ## Private / billing issues
 
 For payments, account questions, or other private matters, email: `support@tabmail.ai`.
-
-## Note
-
-This repo previously hosted the docs site. Docs have been migrated into the main website repository.
